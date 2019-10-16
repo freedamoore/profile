@@ -11,19 +11,14 @@ h3 {
   color: #954565;
   font-weight: 500;
   padding-bottom: 1rem;
-  /* padding: 1rem;
-  font-family: 'Audiowide', cursive;
-  color: #d7c2a8; */
 }
 
 /*parallax scrolling*/
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-  /* opacity: 0.65; */
   background-attachment: fixed;
   background-position: center top;
   background-repeat: no-repeat;
-  /* background-size: auto; */
   background-size: cover;
   min-height: 620px;
 }
@@ -49,8 +44,6 @@ h3 {
 
 .content {
   background-color: white;
-  /* height: 400px; */
-  /* padding: 50px 100px 50px 100px; */
   padding: 5%;
 }
 
