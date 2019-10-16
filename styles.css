@@ -58,13 +58,15 @@ h3 {
 .btn-primary:active,
 .btn-primary:visited,
 .btn-primary:focus {
-  background-color: #954565;
-  border-color: #954565;
+  background-color: #954565!important;
+  border-color: #954565!important;
+  box-shadow: none!important;
 }
 
 .btn-primary:hover {
-  background-color: #B35A7E;
-  border-color: #B35A7E;
+  background-color: #B35A7E!important;
+  border-color: #B35A7E!important;
+  box-shadow: none!important;
 }
 
 .btn-right {
