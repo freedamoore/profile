@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  height: 100%;
+  color: #40514E;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  background-color: #B35A7E;
+}
+
+h3 {
+  color: #954565;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  /* padding: 1rem;
+  font-family: 'Audiowide', cursive;
+  color: #d7c2a8; */
+}
+
+/*parallax scrolling*/
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  /* opacity: 0.65; */
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  /* background-size: auto; */
+  background-size: cover;
+  min-height: 620px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+.bgimg-1 {
+  background-image: url("../images/bkd1.png");
+}
+
+.bgimg-2 {
+  background-image: url("../images/bkd2.png");
+}
+
+.bgimg-3 {
+  background-image: url("../images/bkd3.png");
+}
+
+.content {
+  background-color: white;
+  /* height: 400px; */
+  /* padding: 50px 100px 50px 100px; */
+  padding: 5%;
+}
+
+.footer {
+  background-color: #954565;
+  color: white;
+  height: 80px;
+  padding: 20px;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #954565;
+  border-color: #954565;
+}
+
+.btn-primary:hover {
+  background-color: #B35A7E;
+  border-color: #B35A7E;
+}
+
+.btn-right {
+    float: right;
+}
